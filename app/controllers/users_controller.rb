@@ -9,13 +9,19 @@ class UsersController < ApplicationController
     end
 
     def create
-        user = user.create!(recipe_params)
+        user = user.create!(user_params)
         render json: user, status: :created
+    end
+
+    def destroy
+        user = User.find(params[:id])
+        user.destroy
+        head no_content
     end
 
     private
 
-    def recipe_params
-        params.permit(:name, :password_digest, :avatar_image)
+    def user_params
+        params.permit(:name, :password)
     end
 end

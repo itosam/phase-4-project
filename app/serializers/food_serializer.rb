@@ -1,3 +1,3 @@
-class RecipeSerializer < ActiveModel::Serializer
-  attributes :id, :image, :time_of_day, :cuisine, :recipe_name, :ingredients, :recipe
+class FoodSerializer < ActiveModel::Serializer
+  attributes :id, :time_of_day, :genre, :name, :ingredients
 end

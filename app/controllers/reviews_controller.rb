@@ -1,4 +1,5 @@
 class ReviewsController < ApplicationController
+    
     def index
         render json: Review.all, status: :ok
     end
@@ -18,4 +19,5 @@ class ReviewsController < ApplicationController
     def review_params
         params.permit(:comment, :score, :recipe_id, :user_id)
     end
+
 end

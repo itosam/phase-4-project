@@ -1,4 +1,4 @@
-class FoodController < ApplicationController
+class FoodsController < ApplicationController
     
     def index
         render json: Food.all, status: :ok
@@ -6,7 +6,7 @@ class FoodController < ApplicationController
 
     def show
         food = Food.find(params[:id])
-        render json: food status: :ok
+        render json: food, status: :ok
     end
 
     def create
@@ -17,7 +17,7 @@ class FoodController < ApplicationController
     private
 
     def food_params
-        params.permit(:image, :time_of_day, :cuisine, :recipe_name, :ingredients, :directions)
+        params.permit(:time_of_day, :genre, :name, :ingredients)
     end
 
 
