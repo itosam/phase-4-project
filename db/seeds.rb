@@ -12,6 +12,7 @@ a1 =
     name: "Steak",
     genre: "American",
     time_of_day: "Dinner",
+    image:"",
     ingredients:
       "2 lbs New York Strip Steaks (2 steaks), or Ribeye or Top Sirloin Steaks (1 lb each steak, 1 1/4” thick)
     1/2 Tbsp vegetable oil, or any high heat cooking oil like canola or extra light olive oil
@@ -26,6 +27,7 @@ a2 =
     name: "Pork Tenderloin",
     genre: "American",
     time_of_day: "Dinner",
+    image:"",
     ingredients: "2 pork tenderloins
     2 tablespoons  olive oil, divided
     1 teaspoon sweet paprika
@@ -45,6 +47,7 @@ a3 =
     name: "Apple Pie",
     genre: "American",
     time_of_day: "Breakfast",
+    image:"",
     ingredients: "1 double pie crust
     2 1/4 lbs Granny Smith Apples, peeled, cored  6-7 apples (7 cups thinly sliced)
     1 1/2 tsp cinnamon
@@ -59,6 +62,7 @@ a4 =
     name: "Chilli",
     genre: "American",
     time_of_day: "Lunch",
+    image:"",
     ingredients: "1 tablespoon olive oil
     1 medium yellow onion -diced
     1 pound 90% lean ground beef
@@ -80,6 +84,7 @@ a5 =
     name: "Biscuits and Gravy",
     genre: "American",
     time_of_day: "Breakfast",
+    image:"",
     ingredients: "1 (16 ounce) can refrigerated jumbo buttermilk biscuits
     1 (9.6 ounce) package Jimmy Dean® Original Hearty Pork Sausage Crumbles
     ¼ cup flour
@@ -91,6 +96,7 @@ a6 =
     name: "Chicken and Waffles",
     genre: "American",
     time_of_day: "Breakfast",
+    image:"",
     ingredients: "1 lb chicken tenderloins (about 6 to 7 pieces)
     1 cup whole buttermilk
     2 teaspoons kosher salt, divided
@@ -109,6 +115,7 @@ a7 =
     name: "Breakfast Burrito",
     genre: "American",
     time_of_day: "Breakfast",
+    image:"",
     ingredients: "2 Tablespoons olive oil
     1 pound ground breakfast sausage
     1 ½ cups frozen hash browns
@@ -124,6 +131,7 @@ a8 =
     name: "HotDog",
     genre: "American",
     time_of_day: "Lunch",
+    image:"",
     ingredients: "4 hot dog wieners
     4 hot dog or sausage buns
     4 pickles, sliced lengthwise
@@ -137,6 +145,7 @@ a9 =
     name: "Chicken Wings",
     genre: "American",
     time_of_day: "Lunch",
+    image:"",
     ingredients: "4 pounds chicken wings , halved at joints, wingtips discarded
     2 Tablespoons baking powder *aluminum free
     3/4 teaspoon salt
@@ -149,6 +158,7 @@ a10 =
     name: "Pizza",
     genre: "American",
     time_of_day: "Dinner",
+    image:"",
     ingredients: "1 16 ounce ball of pizza dough, 12 to 16 ounces is fine
     1 tablespoon olive oil, for rubbing dough
     1 cup pizza sauce
@@ -163,6 +173,7 @@ a11 =
     name: "Meatloaf",
     genre: "American",
     time_of_day: "Dinner",
+    image:"",
     ingredients: "1-1/2 pounds Ground Beef (93% lean or leaner)
     3/4 cup panko bread crumbs
     3/4 cup ketchup, divided
@@ -179,6 +190,7 @@ a12 =
     name: "French Toast",
     genre: "American",
     time_of_day: "Breakfast",
+    image:"",
     ingredients: "⅔ cup milk
     2 large eggs
     1 teaspoon vanilla extract
@@ -193,6 +205,7 @@ b1 =
     name: "Seaseme Chicken",
     genre: "Asian",
     time_of_day: "Dinner",
+    image:"",
     ingredients: "5 tbsp Vegetable oil
     2 eggs
     3 tbsp cornflour
@@ -221,6 +234,7 @@ b2 =
     name: "Kung Pow",
     genre: "Asian",
     time_of_day: "Lunch",
+    image:"",
     ingredients: "Chicken:
     28 ounces (800g) boneless/skinless chicken breast
     1 tablespoon shaoxing wine or dry sherry
@@ -252,6 +266,7 @@ b3 =
     name: "Crab Rangoon",
     genre: "Asian",
     time_of_day: "Lunch",
+    image:"",
     ingredients: "5 ounces canned crab meat drained
     4 ounces cream cheese softened
     1 green onion finely sliced
@@ -266,6 +281,7 @@ b4 =
     name: "Doughnut Stick",
     genre: "Asian",
     time_of_day: "Breakfast",
+    image:"",
     ingredients: "Doughnuts:
     Nonstick cooking spray
     1 1/2 cups all-purpose flour
@@ -286,6 +302,7 @@ b5 =
     name: "Egg Rolls",
     genre: "Asian",
     time_of_day: "Dinner",
+    image:"",
     ingredients: "1 pound ground pork
     1 teaspoon ground ginger, or more to taste
     1 teaspoon garlic powder, or more to taste
@@ -301,6 +318,7 @@ b6 =
     name: "Jianbing",
     genre: "Asian",
     time_of_day: "Breakfast",
+    image:"",
     ingredients: "For the crackers
     16 ready-made wonton wrappers - see note 1
     cooking oil, for deep-frying - see note 2
@@ -318,6 +336,7 @@ b7 =
     name: "Congee",
     genre: "Asian",
     time_of_day: "Dinner",
+    image:"",
     ingredients: "1 cup raw long-grain white rice, rinsed
     7 cups chicken or vegetable stock
     1/2 teaspoon kosher or sea salt, plus more for seasoning
@@ -329,6 +348,7 @@ b8 =
     name: "Dakjuk",
     genre: "Asian",
     time_of_day: "Breakfast",
+    image:"",
     ingredients: "1 cup short grain rice or sweet rice glutinous rice
     6 cups chicken stock
     1 to 1-1/2 cups pulled chicken seasoned with salt, garlic, sesame oil, pepper
@@ -345,6 +365,7 @@ b9 =
     name: "Kanji",
     genre: "Asian",
     time_of_day: "Lunch",
+    image:"",
     ingredients: "½ cup cooked Rice
     1 cup water
     ¼ cup curds , homemade
@@ -366,6 +387,7 @@ b10 =
     name: "Dim Sum",
     genre: "Asian",
     time_of_day: "Breakfast",
+    image:"",
     ingredients: "bun dough
     ground pork
     spring onions
@@ -385,6 +407,7 @@ b11 =
     name: "Coconut Tarts",
     genre: "Asian",
     time_of_day: "Lunch",
+    image:"",
     ingredients: "FOR THE SHORTCRUST PASTRY
     120 g unsalted butter, chilled and cubed
     25 g confectioners sugar, icing sugar
@@ -405,6 +428,7 @@ b12 =
     name: "Spicy Tuna",
     genre: "Asian",
     time_of_day: "Dinner",
+    image:"",
     ingredients: "
     1 ½ cup sushi rice (cooked and seasoned) (each roll requires ¾ cup (135 g) sushi rice. 1 rice cooker cup (180 ml /150 g) makes 330 g (12 oz, 1 ¾ cup) of cooked rice.) 
     4 oz sashimi-grade tuna
@@ -421,6 +445,7 @@ c1 =
     name: "Huevos Rancheros",
     genre: "Mexican",
     time_of_day: "Breakfast",
+    image:"",
     ingredients: "6 Roma tomatoes
     2 seeded serrano peppers
     1 peeled yellow onion, cut into thick slices
@@ -438,6 +463,7 @@ c2 =
     name: "Tetelas",
     genre: "Mexican",
     time_of_day: "Breakfast",
+    image:"",
     ingredients: "2 Cups of Masa-Harina
     1¼ cups of warm water*
     1 ⅓ cups of refried black beans
@@ -451,6 +477,7 @@ c3 =
     name: "Tameles",
     genre: "Mexican",
     time_of_day: "Breakfast",
+    image:"",
     ingredients: "4 cups Masa Harina
     3 cups broth (beef, chicken, or vegetable broth)
     2 teaspoons baking powder
@@ -464,6 +491,7 @@ c4 =
     name: "Molletes",
     genre: "Mexican",
     time_of_day: "Lunch",
+    image:"",
     ingredients: "2 cups refried beans (or bean puree)
     1-2 cups shredded cheese
     3-4 bread rolls
@@ -474,6 +502,7 @@ c5 =
     name: "Birria",
     genre: "Mexican",
     time_of_day: "Dinner",
+    image:"",
     ingredients: "For the Meat
     1 Lb Bone-In Lamb Ribs
     1 Lb Beef shank
@@ -506,6 +535,7 @@ c6 =
     name: "Fajitas",
     genre: "Mexican",
     time_of_day: "Lunch",
+    image:"",
     ingredients: "3 chicken breasts
     1 medium onion
     1 lime
@@ -523,6 +553,7 @@ c7 =
     name: "Chilli Verde",
     genre: "Mexican",
     time_of_day: "Dinner",
+    image:"",
     ingredients: "Olive oil
     5 cups diced onion
     1/2 cup chopped garlic
@@ -545,6 +576,7 @@ c8 =
     name: "Albondigas Soup",
     genre: "Mexican",
     time_of_day: "Dinner",
+    image:"",
     ingredients: "2 tablespoons extra virgin olive oil
     1 large onion, chopped
     1 large garlic clove, minced
@@ -571,6 +603,7 @@ c9 =
     name: "Pollo Asado",
     genre: "Mexican",
     time_of_day: "Lunch",
+    image:"",
     ingredients: "Marinade
     ½ cup orange juice freshly squeezed
     ¼ cup lime juice freshly squeezed
@@ -591,6 +624,7 @@ c10 =
     name: "Breakfast Tacos",
     genre: "Mexican",
     time_of_day: "Breakfast",
+    image:"",
     ingredients: "4 pieces bacon
     2 green onions, sliced, with green and white parts separated
     1 tablespoon olive oil
@@ -606,6 +640,7 @@ c11 =
     name: "Quesadilla",
     genre: "Mexican",
     time_of_day: "Breakfast",
+    image:"",
     ingredients: "Large flour tortillas
     Grated cheese such as mild or sharp cheddar, or Monterey Jack
     Olive oil or butter
@@ -624,6 +659,7 @@ c12 =
     name: "Chile relleno",
     genre: "Mexican",
     time_of_day: "Dinner",
+    image:"",
     ingredients: "1 pound lean ground beef (93% lean)
     1 can (15 ounces) chili without beans
     1/4 teaspoon salt

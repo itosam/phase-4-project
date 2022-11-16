@@ -17,7 +17,7 @@ class FoodsController < ApplicationController
     private
 
     def food_params
-        params.permit(:time_of_day, :genre, :name, :ingredients)
+        params.permit(:time_of_day, :image, :genre, :name, :ingredients)
     end
 
 

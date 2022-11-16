@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 
 //d
@@ -48,7 +49,6 @@ function Login({updateUser}) {
       <form onSubmit={onSubmit}>
         <label>username:</label>
         <input type="text" name="name" value={name} onChange={handleChange} />
-
         <br />
         <label>password:</label>
         <input
@@ -57,11 +57,10 @@ function Login({updateUser}) {
           value={password}
           onChange={handleChange}
         />
-
         <br />
         <input type="submit" value="Login" />
         <br />
-          <Link to="/users/new">Don't have an account? Signup here!</Link>
+        Don't have an account? <Link to="/users/new">Signup here!</Link>
       </form>
       {errors ? <div>{errors}</div> : null}
     </div>

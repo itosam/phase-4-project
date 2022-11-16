@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 2022_11_15_052547) do
   create_table "foods", force: :cascade do |t|
     t.string "time_of_day"
     t.string "genre"
+    t.string "image"
     t.text "name"
     t.text "ingredients"
     t.datetime "created_at", precision: 6, null: false
