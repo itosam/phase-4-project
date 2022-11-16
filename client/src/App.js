@@ -2,7 +2,9 @@ import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import Login from "./components/Login";
 import SignUp from "./components/Signup";
+import AccountPage from "./components/AccountPage";
 import { useEffect, useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [foods, setfoods] = useState([]);
@@ -42,6 +44,9 @@ function App() {
         </Route>
         <Route path="/users/new">
           <SignUp updateUser={updateUser} />
+        </Route>
+        <Route path="/accountpage">
+          <AccountPage updateUser={updateUser} />
         </Route>
       </Switch>
     </div>
