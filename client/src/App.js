@@ -3,6 +3,8 @@ import "./App.css";
 import Login from "./components/Login";
 import SignUp from "./components/Signup";
 import AccountPage from "./components/AccountPage";
+import FoodContainer from "./components/FoodContainer";
+import FoodCard from "./components/FoodCard";
 import { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -47,6 +49,12 @@ function App() {
         </Route>
         <Route path="/accountpage">
           <AccountPage updateUser={updateUser} />
+        </Route>
+        <Route path="/foodcontainer">
+          <FoodContainer updateUser={updateUser} />
+        </Route>
+        <Route path="/foodcard">
+          <FoodCard updateUser={updateUser} />
         </Route>
       </Switch>
     </div>

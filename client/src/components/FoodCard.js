@@ -2,20 +2,22 @@ import {Link} from 'react-router-dom'
 
 
 function FoodCard( {food} ) {
-    const {name, genre, time_of_day, ingredients} = food
+    const {id, name, genre, time_of_day, ingredients, image} = food
 
 
     return (
       <div>
         <div>
-          <Link to={`/productions/${id}`}>
+          <Link to={`/foods/${id}`}>
             {" "}
-            <h2>{title}</h2>
+            <h2>{name}</h2>
           </Link>
           <p>{genre}</p>
-          <p>$ {budget}</p>
+          <p>{time_of_day}</p>
         </div>
         <img src={image} />
       </div>
     );
 }
+
+export default FoodCard

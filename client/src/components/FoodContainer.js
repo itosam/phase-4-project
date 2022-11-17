@@ -2,7 +2,7 @@
 // Need random filter?
 import React, {useState,useEffect} from "react"
 
-function foodContainer() {
+function FoodContainer() {
 
     const [food, setFood] = useState ([])
 
@@ -16,11 +16,11 @@ function foodContainer() {
         <div>
             <h1>Choose your Destiny</h1>
             <br />
-            <foodCollection food={foodToDisplay}>
-            </div>
+            {/* <FoodCollection food={foodToDisplay}> */}
+         </div>
     )
 
 
 }
 
-export default foodContainer
+export default FoodContainer
